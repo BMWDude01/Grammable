@@ -54,9 +54,9 @@ RSpec.describe GramsController, type: :controller do
 
       it "should properly deal with validation errors" do
         user = User.create(
-        email:                 'fakeuser@gmail.com',
-        password:              'secretPassword',
-        password_confirmation: 'secretPassword'
+        email:                 'kai.langrehr@gmail.com',
+        password:              'kaitrain',
+        password_confirmation: 'kaitrain'
         )
         sign_in user
 
