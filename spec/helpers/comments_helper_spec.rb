@@ -11,6 +11,5 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe CommentsHelper, type: :helper do
-
-
+  
 end
